@@ -43,32 +43,32 @@ The Storyboard Player is a tool designed to process and visualize storyboard fil
 
 1. **Display in Console**:
    ```bash
-   python main.py test-storyboard.md --display
+   python main.py test/test-storyboard.md --display
    ```
 
 2. **Display in GUI**:
    ```bash
-   python main.py test-storyboard.md --display_gui
+   python main.py test/test-storyboard.md --display_gui
    ```
 
 3. **Generate QML**:
    ```bash
-   python main.py test-storyboard.md --display_qml
+   python main.py test/test-storyboard.md --display_qml
    ```
 
 4. **Render to Video**:
    ```bash
-   python main.py test-storyboard.md --render_video
+   python main.py test/test-storyboard.md --render_video
    ```
 
 5. **Custom Output Video Filename**:
    ```bash
-   python main.py test-storyboard.md --render_video --output my_video.mp4
+   python main.py test/test-storyboard.md --render_video --output my_video.mp4
    ```
 
 6. **Custom QML Output Filename**:
    ```bash
-   python main.py test-storyboard.md --display_qml --qml_output my_storyboard.qml
+   python main.py test/test-storyboard.md --display_qml --qml_output my_storyboard.qml
    ```
 
 ## Requirements
