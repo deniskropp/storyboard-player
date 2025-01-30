@@ -110,6 +110,8 @@ The application uses a custom logger defined in `storyboard/logger.py`. Logs are
 - `sound/`: Directory for generated sound files.
 - `logs/`: Directory for log files (if logging to a file is enabled).
 
+Happy coding!
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests to improve the Storyboard Player.
@@ -151,8 +153,6 @@ For any questions or inquiries, please contact the maintainer:
 - Enable debug logging by setting the logging level to `DEBUG` in the `Logger` class.
 - Check the console output for any error messages or warnings.
 - Review the log files (if logging to a file is enabled) for more detailed information.
-
-**Happy coding!**
 
 ## Changelog
 
