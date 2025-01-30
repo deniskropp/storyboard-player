@@ -16,6 +16,8 @@
 <|im_start|>output.md
 <|im_start|>README.md
 
+<video src="test/test-storyboard_output.mp4" />
+
 # Storyboard Player
 
 The Storyboard Player is a tool designed to process and visualize storyboard files written in Markdown. It supports various functionalities such as displaying the storyboard in the console, rendering it in a GUI window, generating a QML file for a graphical user interface, and rendering the storyboard to a video file.
