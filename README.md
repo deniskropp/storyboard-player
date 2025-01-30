@@ -1,26 +1,13 @@
 <|repo_name|>storyboard-player
-⫻context/file:main.py (1774)
-⫻context/file:storyboard/config.py (472)
-⫻context/file:storyboard/image_converter.py (1254)
-⫻context/file:storyboard/image_downloader.py (2426)
-⫻context/file:storyboard/logger.py (3109)
-⫻context/file:storyboard/pipeline.py (1778)
-⫻context/file:storyboard/qml_generator.py (6673)
-⫻context/file:storyboard/scene.py (2887)
-⫻context/file:storyboard/sound.py (2311)
-⫻context/file:storyboard/storyboard.py (4564)
-⫻context/file:storyboard/utils.py (1880)
-⫻context/file:storyboard/video_renderer.py (5503)
-⫻context/file:test-storyboard.md (1534)
 ⫻content/file:README.md
 <|im_start|>output.md
 <|im_start|>README.md
 
 # Storyboard Player
 
-[![Storyboard Player Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://github.com/deniskropp/storyboard-player/raw/refs/heads/main/test/test-storyboard_output.mp4)
-
 🎥 The Storyboard Player is a tool designed to process and visualize storyboard files written in Markdown. It supports various functionalities such as displaying the storyboard in the console, rendering it in a GUI window, generating a QML file for a graphical user interface, and rendering the storyboard to a video file.
+
+https://github.com/user-attachments/assets/95b40465-2464-4a57-ac59-146ae5d08689
 
 ## Table of Contents
 
