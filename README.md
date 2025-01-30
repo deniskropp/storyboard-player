@@ -16,11 +16,25 @@
 <|im_start|>output.md
 <|im_start|>README.md
 
-<video src="test/test-storyboard_output.mp4" />
-
 # Storyboard Player
 
-The Storyboard Player is a tool designed to process and visualize storyboard files written in Markdown. It supports various functionalities such as displaying the storyboard in the console, rendering it in a GUI window, generating a QML file for a graphical user interface, and rendering the storyboard to a video file.
+<video src="https://github.com/deniskropp/storyboard-player/raw/refs/heads/main/test/test-storyboard_output.mp4">
+</video>
+
+🎥 The Storyboard Player is a tool designed to process and visualize storyboard files written in Markdown. It supports various functionalities such as displaying the storyboard in the console, rendering it in a GUI window, generating a QML file for a graphical user interface, and rendering the storyboard to a video file.
+
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Command Line Arguments](#command-line-arguments)
+  - [Example Commands](#example-commands)
+- [Configuration](#configuration)
+- [Logging](#logging)
+- [Directory Structure](#directory-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -28,6 +42,29 @@ The Storyboard Player is a tool designed to process and visualize storyboard fil
 - **Display in GUI**: Visualize the storyboard in a graphical user interface window.
 - **Generate QML**: Create a QML file that can be used to display the storyboard in a QML viewer.
 - **Render to Video**: Convert the storyboard into a video file.
+
+## Requirements
+
+- Python 3.8 or higher
+- Required Python packages:
+  - `markdown`
+  - `FreeSimpleGUI`
+  - `Pillow`
+  - `requests`
+  - `torch`
+  - `kokoro`
+  - `soundfile`
+  - `subprocess`
+
+## Installation
+
+To install the Storyboard Player, clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/deniskropp/storyboard-player.git
+cd storyboard-player
+pip install markdown FreeSimpleGUI Pillow requests torch kokoro soundfile
+```
 
 ## Usage
 
@@ -72,25 +109,6 @@ The Storyboard Player is a tool designed to process and visualize storyboard fil
    ```bash
    python main.py test/test-storyboard.md --display_qml --qml_output my_storyboard.qml
    ```
-
-## Requirements
-
-- Python 3.8 or higher
-- Required Python packages:
-  - `markdown`
-  - `FreeSimpleGUI`
-  - `Pillow`
-  - `requests`
-  - `torch`
-  - `kokoro`
-  - `soundfile`
-  - `subprocess`
-
-You can install the required packages using pip:
-
-```bash
-pip install markdown FreeSimpleGUI Pillow requests torch kokoro soundfile
-```
 
 ## Configuration
 
