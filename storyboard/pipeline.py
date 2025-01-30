@@ -10,14 +10,14 @@ from storyboard.config import Config
 class TTSPipeline:
     """Wrapper for the Kokoro text-to-speech pipeline."""
 
-    def __init__(self, lang_code: str = 'a'):
+    def __init__(self, lang_code: str = 'a', num_threads: int = None):
         """
         Initializes the TTS pipeline.
 
         Args:
             lang_code (str, optional): The language code for the pipeline. Defaults to 'a'.
         """
-        num_threads = int(os.environ.get('NUM_THREADS', -1))
+        num_threads = int(os.environ.get('NUM_THREADS', num_threads or os.cpu_count() or 1))
         torch.set_num_threads(num_threads)
         self.pipeline = KPipeline(lang_code=lang_code)
         logger.info("Kokoro pipeline initialized.", num_threads=num_threads)
