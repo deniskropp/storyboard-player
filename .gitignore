@@ -4,3 +4,4 @@ __pycache__
 /storyboard.qml
 images/
 sound/
+storyboard_player.egg-info/

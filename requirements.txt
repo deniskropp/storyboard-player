@@ -1,0 +1,7 @@
+markdown
+Pillow
+requests
+soundfile
+FreeSimpleGUI
+kokoro
+ffmpeg-python
